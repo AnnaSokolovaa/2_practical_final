@@ -1,0 +1,9 @@
+.portfolio_foto{
+    width: 43vw;
+}
+.portfolio_foto_big{
+    width: 85vw;
+    display: block; /* Делаем изображение блочным элементом */
+    margin-left: auto; /* Выравниваем по центру слева */
+    margin-right: auto; /* Выравниваем по центру справа */
+}

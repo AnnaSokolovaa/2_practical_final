@@ -1,0 +1,165 @@
+
+ 
+  
+  
+
+
+
+
+.achievement_text_2{
+    font-size: clamp(20px, 2.6vw, 36px);
+}
+
+.achievement_col_1{
+    background-color: #2C3878;
+}
+
+.achievement_text_3{
+    font-size: clamp(22.5px, 3.1vw, 52px);
+}
+
+.achievement_text_4{
+    font-size: clamp(7.5px, 1vw, 16px);
+    margin-top: -5%;
+}
+.number_1{
+    font-size: 4vw;
+    color: #fff;
+}
+.number_2{
+    font-size: 1vw;
+    color: #fff;
+    font-weight: 400;
+}
+.foto_2{
+    width: 60vw;
+}
+.one{
+    margin-left: 8%;
+}
+
+
+
+
+
+.line{
+    margin-left: 12%;
+    margin-top: -2.5%;
+    width: 30%;
+    height: 2px;
+    background-color: #000000;
+}
+.line_1{
+    margin-left: 17%;
+    margin-top: -2.5%;
+    width: 30%;
+    height: 2px;
+    background-color: #000000;
+}
+
+
+
+.tab{
+    box-shadow: 1px 2px 21px rgba(217, 217, 217, 0.37);
+    margin-left: -2%;
+}
+.tab_1{
+    box-shadow: 1px 2px 21px rgba(217, 217, 217, 0.37);
+    margin-left: 1%;
+}
+.tab_2{
+    box-shadow: 1px 2px 21px rgba(217, 217, 217, 0.37);
+    margin-left: 1%;
+}
+.text_under_sercal{
+    color: #000000;
+    font-weight: 600;
+    font-size: clamp(10px, 1.5vw, 3vw);
+}
+
+
+
+
+
+
+.ellips {
+    width: 14px;
+    height: 14px;
+}
+
+.enter {
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+.emailad {
+    color: #9C9C9C;
+    width: 440px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 16px;
+}
+
+.footercol svg {
+    color: #9C9C9C;
+}
+
+.emailcon {
+    color: #9C9C9C;
+    display: flex;
+    flex-flow: row nowrap;
+    z-index: 1;
+}
+
+.imgsvg {
+    color: #9C9C9C;
+    width: 50px;
+    height: 20px;
+    z-index: 1;
+    position: relative;
+    right: 40px;
+    bottom: 10px;
+    top: -20px;
+}
+
+::placeholder {
+    color: #9C9C9C;
+}
+
+.pcon {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.con, .con1, .con2, .con3 {
+    display: flex;
+    align-items: center;
+}
+
+.faceniz {
+    width: 25px;
+    margin-bottom: 5px;
+}
+
+.gray {
+    width: 35px;
+}
+@media(max-width: 376px){
+    
+    .one{
+        margin-left: 1%;
+    }
+}
+@media(max-width: 769px){
+    .foto_2{
+        width: 40vw;
+    }
+    .one{
+        margin-left: 15%;
+    }
+}

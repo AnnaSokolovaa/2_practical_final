@@ -1,0 +1,80 @@
+.img_col{
+    width: 60vw;
+    display: block; /* Делаем изображение блочным элементом */
+    margin-left: auto; /* Выравниваем по центру слева */
+    margin-right: auto; /* Выравниваем по центру справа */
+}
+.arrow_img{
+    width: 7vw;
+}
+.text_number{
+    font-weight: 600;
+    font-size: clamp(10px, 2.5vw, 4vw);
+}
+.right_text_number{
+    font-weight: 600;
+    font-size: clamp(10px, 2.5vw, 4vw);
+}
+.line_3{
+    margin-left: 12%;
+    margin-top: -2.5%;
+    width: 30%;
+    height: 2px;
+    background-color: #000000;
+}
+.line_2{
+    margin-left: 17%;
+    margin-top: -2.5%;
+    width: 30%;
+    height: 2px;
+    background-color: #000000;
+}
+@media(min-width: 375px){
+    .service_text{
+        margin-top: 3vw;
+    }
+    .line_2{
+        margin-left: 32%;
+        margin-top: -6%;
+    }
+    .line_3{
+        margin-left: 26%;
+        margin-top: -7%;
+    }
+   
+    .arrows{
+        margin-top: -10%;
+    }
+    
+}
+@media(min-width: 768px){
+    .arrows{
+        margin-top: -5%;
+    }
+   
+    .line_2{
+        margin-left: 18%;
+        margin-top: -3.5%;
+    }
+    .line_3{
+        margin-left: 18%;
+        margin-top: -3.5%;
+    }
+   
+}
+@media(min-width: 1024px){
+    .line_3{
+        margin-left: 12%;
+        margin-top: -2.5%;
+        width: 30%;
+        height: 2px;
+        background-color: #000000;
+    }
+    .line_2{
+        margin-left: 17%;
+        margin-top: -2.5%;
+        width: 30%;
+        height: 2px;
+        background-color: #000000;
+    }
+}

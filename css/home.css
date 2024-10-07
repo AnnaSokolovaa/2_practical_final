@@ -1,0 +1,268 @@
+.heading{
+    font-size: 6vw;
+    font-weight: 700;
+}
+.line_line{
+    width: 70%;
+    height: 0.5px;
+    background-color: black;
+    align-self: center;
+}
+
+.line_3{
+    margin-left: 12%;
+    margin-top: -2.5%;
+    width: 30%;
+    height: 2px;
+    background-color: #000000;
+}
+.text_number{
+    font-weight: 600;
+    font-size: clamp(10px, 2.5vw, 4vw);
+}
+.right_text_number{
+    font-weight: 600;
+    font-size: clamp(10px, 2.5vw, 4vw);
+}
+.line_9{
+    margin-left: 22%;
+    margin-top: -6.5%;
+    width: 30%;
+    height: 2px;
+    background-color: #000000;
+}
+.grid_foto{
+    width: 40vw;
+    display: block; /* Делаем изображение блочным элементом */
+    margin-left: auto; /* Выравниваем по центру слева */
+    margin-right: auto; /* Выравниваем по центру справа */
+}
+.btn-primary_9{
+    --bs-btn-color: #000000;
+    --bs-btn-bg: #ffffff;
+    --bs-btn-border-color: #000000;
+    --bs-btn-hover-color: none;
+    --bs-btn-hover-bg: none;
+    --bs-btn-hover-border-color: none;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: none;
+    --bs-btn-active-bg: none;
+    --bs-btn-active-border-color: none;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: none;
+    --bs-btn-disabled-bg: none;
+    --bs-btn-disabled-border-color: none;
+    border-radius: 0;
+    font-weight: 400;
+    width: 60%;
+    height: 70%;
+}
+.home_text_1{
+    font-weight: 600;
+    font-size: clamp(33px, 4vw, 72px);
+}
+
+.home_text_2{
+    writing-mode: vertical-rl;
+    transform: scale(-1, -1);
+    font-family: Poppins Medium;
+    font-size: clamp(12.5px, 1.3vw, 18px);
+}
+
+@media(max-width: 992px){
+    .home_block{
+        background-color: #2C3878;
+        width: 150px;
+        top: -125px;
+        right: 20%;
+    }
+}
+
+@media(min-width: 992px){
+    .home_block{
+        background-color: #2C3878;
+        width: 190px;
+        top: -125px;
+        right: 15%;
+    }
+}
+
+@media(max-width: 576px){
+    .home_block{
+        background-color: #2C3878;
+        width: 125px;
+        top: -125px;
+        right: 22.5%;
+    }
+}
+
+@media(max-width: 450px){
+    .home_block{
+        background-color: #2C3878;
+        width: 100px;
+        top: -125px;
+        right: 26.5%;
+    }
+}
+
+.home_text_3{
+    font-size: clamp(15px, 2.8vw, 52px);
+}
+
+.home_text_4{
+    font-size: clamp(7.5px, 1vw, 16px);
+}
+
+
+
+
+
+
+
+
+
+.about_text_1{
+    font-size: clamp(22.5px, 2.6vw, 36px);
+}
+
+
+
+
+
+
+
+
+
+.col_portfolio{
+    position: relative;
+}
+
+.portfolio_img_1{
+    width: 90%;
+}
+
+.portfolio_img_2{
+    width: 20%;
+    height: 100%;
+}
+
+.portfolio_block_text_1{
+    font-size: clamp(10px, 1.3vw, 18px);
+}
+
+.portfolio_block_text_2{
+    font-size: clamp(10px, 1.3vw, 18px);
+    color: #9C9C9C;
+}
+
+@media(max-width: 1200px){
+    .col_portfolio_2{
+        margin-top: 3%;
+    }
+
+    .portfolio_block{
+        position: absolute;
+        top: 30px;
+        right: 5%;
+    }
+}
+
+@media(min-width:1200px){
+    .col_portfolio_2{
+        margin-top: 12.5%;
+    }
+
+    .portfolio_block{
+        position: absolute;
+        top: 30px;
+        right: -7.5%;
+    }
+}
+
+.portfolio_text_3{
+    font-size: clamp(17.5px, 1.6vw, 24px);
+}
+
+.portfolio_text_4{
+    font-size: clamp(15px, 1.3vw, 18px);
+    color: #9C9C9C;
+}
+
+.btn_portfolio.btn-primary, .btn_portfolio.btn-primary:hover, .btn_portfolio.btn-primary:active, .btn_portfolio.btn-primary:visited {
+    background-color: #2C3878 !important;
+    color: white;
+    border: none;
+    border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.ser_text_1{
+    font-size: clamp(22.5px, 2.6vw, 36px);
+}
+
+.ser_text_2{
+    color: #9C9C9C;
+    font-size: clamp(15px, 1.3vw, 18px);
+}
+
+.col_home_service{
+    position: relative;
+}
+
+.home_service_img{
+    width: 90%;
+}
+
+.home_service_text_3{
+    font-size: clamp(15px, 1.6vw, 24px);
+}
+
+.home_service_text_4{
+    font-size: clamp(14px, 1.3vw, 18px);
+}
+
+@media(max-width: 576px){
+    .home_service_block{
+        position: relative;
+        width: 100%;
+        top: 0;
+    }
+
+    .img_home_end{
+        display: flex;
+        justify-content: start;
+    }
+}
+
+@media(min-width: 576px){
+    .home_service_block{
+        position: absolute;
+        width: 72.5%;
+        top: -75px;
+    }
+
+    .img_home_end{
+        display: flex;
+        justify-content: end;
+    }
+}
+
+@media(min-width: 375px){
+    .grid_foto{
+        width: 70vw;
+    }
+}
+@media(min-width: 1024px){
+    .grid_foto{
+        width: 40vw;
+    }
+}
